@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/maxmsecurity
+    username: postgres
+    password: ********
+  jpa:
+    hibernate:
+      ddl-auto: validate
+jwt:
+  header: Authorization
+  secretkey: secret
+  expirationmin: 3
+  refreshexpirationmin: 180
